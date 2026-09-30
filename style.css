@@ -14,17 +14,12 @@ body {
     background-color: white;
 }
 
-
-/* Navbar */
-
 nav {
     height: 65px;
     padding: 0 8%;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background-color: #c6e9f4;
 }
 
@@ -37,7 +32,6 @@ nav {
 nav ul {
     display: flex;
     gap: 25px;
-
     list-style: none;
 }
 
@@ -51,14 +45,10 @@ nav a:hover {
     color: #174154;
 }
 
-
-/* Home */
-
 .home {
     max-width: 1100px;
     margin: auto;
     padding: 70px 30px;
-
     display: flex;
     align-items: center;
     gap: 50px;
@@ -70,7 +60,6 @@ nav a:hover {
 
 .small-title {
     margin-bottom: 12px;
-
     color: #174154;
     font-size: 13px;
     font-weight: bold;
@@ -78,27 +67,22 @@ nav a:hover {
 
 .home h1 {
     margin-bottom: 20px;
-
     font-size: 50px;
     line-height: 1.1;
 }
 
 .home-text > p {
     margin-bottom: 25px;
-
     color: #333333;
     line-height: 1.6;
 }
 
 button {
     padding: 12px 20px;
-
     border: none;
     border-radius: 5px;
-
     background-color: #5b8fa8;
     color: white;
-
     cursor: pointer;
 }
 
@@ -113,42 +97,32 @@ button:hover {
 .home-image img {
     width: 100%;
     height: 400px;
-
     object-fit: cover;
     border-radius: 20px;
 }
-
-
-/* About */
 
 .about {
     max-width: 1000px;
     margin: auto;
     padding: 80px 30px;
-
     text-align: center;
 }
 
 .about h2 {
     margin-bottom: 30px;
-
     font-size: 35px;
 }
 
 .about-content {
     padding: 40px 50px;
-
     border: 1px solid #a8d5ea;
     border-radius: 15px;
-
     background-color: #c6e9f4;
-
     text-align: center;
 }
 
 .about-content p {
     margin-bottom: 15px;
-
     color: #333333;
     line-height: 1.6;
 }
@@ -159,44 +133,34 @@ button:hover {
 
 .about-stats {
     margin-top: 35px;
-
     display: flex;
     justify-content: center;
     gap: 20px;
-
     text-align: center;
 }
 
 .stat {
     width: 180px;
     padding: 20px;
-
     border: 1px solid #d5e2e8;
     border-radius: 10px;
-
     background-color: #f5fbfd;
 }
 
 .stat h3 {
     margin-bottom: 5px;
-
     color: #174154;
     font-size: 25px;
 }
 
 .stat p {
     margin-bottom: 0;
-
     color: #333333;
     font-size: 14px;
 }
 
-
-/* Section Title */
-
 .section-title {
     margin-bottom: 35px;
-
     text-align: center;
 }
 
@@ -204,19 +168,14 @@ button:hover {
     font-size: 32px;
 }
 
-
-/* Services */
-
 .services {
     padding: 70px 30px;
-
     background-color: white;
 }
 
 .service-container {
     max-width: 1000px;
     margin: auto;
-
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -225,17 +184,13 @@ button:hover {
 .service {
     width: calc(33.33% - 14px);
     padding: 30px;
-
     border-radius: 10px;
-
     background-color: #c6e9f4;
-
     text-align: center;
 }
 
 .icon {
     margin-bottom: 15px;
-
     font-size: 35px;
 }
 
@@ -249,35 +204,27 @@ button:hover {
     line-height: 1.5;
 }
 
-
-/* Doctors */
-
 .doctors {
     padding: 70px 30px;
-
     background-color: #c6e9f4;
 }
 
 .doctor-container {
     max-width: 1000px;
     margin: auto;
-
     display: flex;
     gap: 25px;
 }
 
 .doctor {
     width: 33.33%;
-
     text-align: center;
 }
 
 .doctor img {
     width: 100%;
     height: 300px;
-
     margin-bottom: 12px;
-
     object-fit: cover;
     border-radius: 15px;
 }
@@ -291,19 +238,14 @@ button:hover {
     font-size: 14px;
 }
 
-
-/* Contact */
-
 .contact {
     padding: 70px 30px;
-
     background-color: white;
 }
 
 .contact-container {
     max-width: 900px;
     margin: auto;
-
     display: flex;
     gap: 50px;
 }
@@ -314,13 +256,11 @@ button:hover {
 
 .contact-info h3 {
     margin-bottom: 20px;
-
     font-size: 25px;
 }
 
 .contact-info p {
     margin-bottom: 10px;
-
     color: #333333;
     line-height: 1.8;
 }
@@ -334,10 +274,8 @@ textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 12px;
-
     border: 1px solid #d5e2e8;
     border-radius: 5px;
-
     font-family: Arial, sans-serif;
 }
 
@@ -347,36 +285,24 @@ textarea {
 
 #formMessage {
     margin-top: 10px;
-
     color: #5b8fa8;
     font-size: 14px;
 }
 
-
-/* Footer */
-
 footer {
     padding: 30px 8%;
-
     background-color: #c6e9f4;
-
     color: #174154;
-
     text-align: center;
 }
 
 footer p {
     margin-top: 8px;
-
     color: #627987;
     font-size: 14px;
 }
 
-
-/* Responsive */
-
 @media (max-width: 700px) {
-
     nav {
         padding: 0 5%;
     }
@@ -387,7 +313,6 @@ footer p {
 
     .home {
         flex-direction: column;
-
         text-align: center;
     }
 
@@ -436,9 +361,7 @@ footer p {
     }
 }
 
-
 @media (max-width: 450px) {
-
     nav ul {
         gap: 8px;
     }
@@ -463,5 +386,4 @@ footer p {
     .about {
         padding: 60px 20px;
     }
-
 }
