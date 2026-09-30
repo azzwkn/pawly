@@ -1,23 +1,23 @@
-var booking = document.getElementById("daftar");
+const booking = document.getElementById("daftar");
 
-booking.onclick = function() {
+booking.addEventListener("click", function() {
     document.getElementById("contact").scrollIntoView();
-};
+});
 
-var form = document.getElementById("form");
+const form = document.getElementById("form");
 
-form.onsubmit = function(event) {
+form.addEventListener("submit", function(event) {
     event.preventDefault();
 
-    var name = document.getElementById("nama").value;
-    var email = document.getElementById("email").value;
-    var message = document.getElementById("pesan").value;
-    var formMessage = document.getElementById("formMessage");
+    const name = document.getElementById("nama").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("pesan").value;
+    const formMessage = document.getElementById("formMessage");
 
     if (name == "" || email == "" || message == "") {
-        formMessage.innerHTML = "Lengkapi semua bagian dulu ya!";
+        formMessage.textContent = "Lengkapi semua bagian dulu ya!";
     } else {
-        formMessage.innerHTML = "Yeay! Pesanmu berhasil terkirim. Kami akan segera menghubungimu!";
+        formMessage.textContent = "Yeay! Pesanmu berhasil terkirim. Kami akan segera menghubungimu!";
         form.reset();
     }
-};
+});
