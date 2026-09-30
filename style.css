@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    color: #3d5a71;
+    color: #174154;
     background-color: white;
 }
 
@@ -71,7 +71,7 @@ nav a:hover {
 .small-title {
     margin-bottom: 12px;
 
-    color: #5b8fa8;
+    color: #174154;
     font-size: 13px;
     font-weight: bold;
 }
@@ -118,15 +118,12 @@ button:hover {
     border-radius: 20px;
 }
 
-
-/* About */
-
 .about {
+    max-width: 1000px;
+    margin: auto;
     padding: 80px 30px;
 
     text-align: center;
-
-    background-color: #c6e9f4;
 }
 
 .about h2 {
@@ -136,13 +133,14 @@ button:hover {
 }
 
 .about-content {
-    max-width: 1000px;
-    margin: auto;
-    padding: 35px 50px;
+    padding: 40px 50px;
 
+    border: 1px solid #a8d5ea;
     border-radius: 15px;
 
-    background-color: white;
+    background-color: #c6e9f4;
+
+    text-align: center;
 }
 
 .about-content p {
@@ -154,6 +152,40 @@ button:hover {
 
 .about-content p:last-child {
     margin-bottom: 0;
+}
+
+.about-stats {
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    text-align: center;
+}
+
+.stat {
+    width: 180px;
+    padding: 20px;
+
+    border: 1px solid #d5e2e8;
+    border-radius: 10px;
+
+    background-color: #f5fbfd;
+}
+
+.stat h3 {
+    margin-bottom: 5px;
+
+    color: #174154;
+    font-size: 25px;
+}
+
+.stat p {
+    margin-bottom: 0;
+
+    color: #333333;
+    font-size: 14px;
 }
 
 
@@ -325,7 +357,7 @@ footer {
 
     background-color: #c6e9f4;
 
-    color: #30485a;
+    color: #174154;
 
     text-align: center;
 }
