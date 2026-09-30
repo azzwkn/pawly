@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
     font-family: Arial, sans-serif;
@@ -23,27 +21,13 @@ nav {
     background-color: #c6e9f4;
 }
 
-.logo {
-    font-size: 22px;
-    font-weight: bold;
-    color: #174154;
-}
+.logo { font-size: 22px; font-weight: bold; color: #174154; }
 
-nav ul {
-    display: flex;
-    gap: 25px;
-    list-style: none;
-}
+nav ul { display: flex; gap: 25px; list-style: none; }
 
-nav a {
-    color: #174154;
-    text-decoration: none;
-    font-size: 14px;
-}
+nav a { color: #174154; text-decoration: none; font-size: 14px; }
 
-nav a:hover {
-    color: #174154;
-}
+nav a:hover { color: #174154; }
 
 .home {
     max-width: 1100px;
@@ -54,9 +38,7 @@ nav a:hover {
     gap: 50px;
 }
 
-.home-text {
-    width: 50%;
-}
+.teks-home { width: 50%; }
 
 .small-title {
     margin-bottom: 12px;
@@ -71,7 +53,7 @@ nav a:hover {
     line-height: 1.1;
 }
 
-.home-text > p {
+.teks-home > p {
     margin-bottom: 25px;
     color: #333333;
     line-height: 1.6;
@@ -86,16 +68,10 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #47768d;
-}
+button:hover { background-color: #47768d; }
 
-.home-image {
+.home img {
     width: 50%;
-}
-
-.home-image img {
-    width: 100%;
     height: 400px;
     object-fit: cover;
     border-radius: 20px;
@@ -108,10 +84,7 @@ button:hover {
     text-align: center;
 }
 
-.about h2 {
-    margin-bottom: 30px;
-    font-size: 35px;
-}
+.about h2 { margin-bottom: 30px; font-size: 35px; }
 
 .about-content {
     padding: 40px 50px;
@@ -127,9 +100,7 @@ button:hover {
     line-height: 1.6;
 }
 
-.about-content p:last-child {
-    margin-bottom: 0;
-}
+.about-content p:last-child { margin-bottom: 0; }
 
 .about-stats {
     margin-top: 35px;
@@ -147,26 +118,13 @@ button:hover {
     background-color: #f5fbfd;
 }
 
-.stat h3 {
-    margin-bottom: 5px;
-    color: #174154;
-    font-size: 25px;
-}
+.stat h3 { margin-bottom: 5px; color: #174154; font-size: 25px; }
 
-.stat p {
-    margin-bottom: 0;
-    color: #333333;
-    font-size: 14px;
-}
+.stat p { margin-bottom: 0; color: #333333; font-size: 14px; }
 
-.section-title {
-    margin-bottom: 35px;
-    text-align: center;
-}
+.section-title { margin-bottom: 35px; text-align: center; }
 
-.section-title h2 {
-    font-size: 32px;
-}
+.section-title h2 { font-size: 32px; }
 
 .services {
     padding: 70px 30px;
@@ -189,14 +147,9 @@ button:hover {
     text-align: center;
 }
 
-.icon {
-    margin-bottom: 15px;
-    font-size: 35px;
-}
+.icon { margin-bottom: 15px; font-size: 35px; }
 
-.service h3 {
-    margin-bottom: 10px;
-}
+.service h3 { margin-bottom: 10px; }
 
 .service p {
     color: #333333;
@@ -216,12 +169,9 @@ button:hover {
     gap: 25px;
 }
 
-.doctor {
-    width: 33.33%;
-    text-align: center;
-}
+.dokter { width: 33.33%; text-align: center; }
 
-.doctor img {
+.dokter img {
     width: 100%;
     height: 300px;
     margin-bottom: 12px;
@@ -229,14 +179,9 @@ button:hover {
     border-radius: 15px;
 }
 
-.doctor h3 {
-    margin-bottom: 5px;
-}
+.dokter h3 { margin-bottom: 5px; }
 
-.doctor p {
-    color: #333333;
-    font-size: 14px;
-}
+.dokter p { color: #333333; font-size: 14px; }
 
 .contact {
     padding: 70px 30px;
@@ -250,14 +195,9 @@ button:hover {
     gap: 50px;
 }
 
-.contact-info {
-    width: 50%;
-}
+.contact-info { width: 50%; }
 
-.contact-info h3 {
-    margin-bottom: 20px;
-    font-size: 25px;
-}
+.contact-info h3 { margin-bottom: 20px; font-size: 25px; }
 
 .contact-info p {
     margin-bottom: 10px;
@@ -265,9 +205,7 @@ button:hover {
     line-height: 1.8;
 }
 
-form {
-    width: 50%;
-}
+form { width: 50%; }
 
 input,
 textarea {
@@ -279,15 +217,9 @@ textarea {
     font-family: Arial, sans-serif;
 }
 
-textarea {
-    resize: none;
-}
+textarea { resize: none; }
 
-#formMessage {
-    margin-top: 10px;
-    color: #5b8fa8;
-    font-size: 14px;
-}
+#formMessage { margin-top: 10px; color: #5b8fa8; font-size: 14px; }
 
 footer {
     padding: 30px 8%;
@@ -296,94 +228,40 @@ footer {
     text-align: center;
 }
 
-footer p {
-    margin-top: 8px;
-    color: #627987;
-    font-size: 14px;
-}
+footer p { margin-top: 8px; color: #627987; font-size: 14px; }
 
 @media (max-width: 700px) {
-    nav {
-        padding: 0 5%;
-    }
-
-    nav ul {
-        gap: 12px;
-    }
+    nav { padding: 0 5%; }
+    nav ul { gap: 12px; }
 
     .home {
         flex-direction: column;
         text-align: center;
     }
 
-    .home-text {
+    .teks-home { width: 100%; }
+    .home h1 { font-size: 38px; }
+
+    .home img {
         width: 100%;
-    }
-
-    .home h1 {
-        font-size: 38px;
-    }
-
-    .home-image {
-        width: 100%;
-    }
-
-    .home-image img {
         height: 300px;
     }
 
-    .service-container {
-        flex-direction: column;
-    }
-
-    .service {
-        width: 100%;
-    }
-
-    .doctor-container {
-        flex-direction: column;
-    }
-
-    .doctor {
-        width: 100%;
-    }
-
-    .contact-container {
-        flex-direction: column;
-    }
-
-    .contact-info {
-        width: 100%;
-    }
-
-    form {
-        width: 100%;
-    }
+    .service-container { flex-direction: column; }
+    .service { width: 100%; }
+    .doctor-container { flex-direction: column; }
+    .dokter { width: 100%; }
+    .contact-container { flex-direction: column; }
+    .contact-info { width: 100%; }
+    form { width: 100%; }
 }
 
 @media (max-width: 450px) {
-    nav ul {
-        gap: 8px;
-    }
-
-    nav a {
-        font-size: 12px;
-    }
-
-    .home {
-        padding: 50px 20px;
-    }
-
-    .home h1 {
-        font-size: 32px;
-    }
-
+    nav ul { gap: 8px; }
+    nav a { font-size: 12px; }
+    .home { padding: 50px 20px; }
+    .home h1 { font-size: 32px; }
     .services,
-    .contact {
-        padding: 60px 20px;
-    }
-
-    .about {
-        padding: 60px 20px;
-    }
+    .contact { padding: 60px 20px; }
+    .about { padding: 60px 20px; }
 }
